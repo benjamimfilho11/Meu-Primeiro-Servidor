@@ -60,6 +60,6 @@ app.delete("/delete/:id",function(req,res){
 })
 
 const PORT = process.env.PORT || 8081;
-app.listen(PORT,"0.0.0.0", () => {
-  console.log("Servidor está rodando em http://localhost:8081");
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
 });
